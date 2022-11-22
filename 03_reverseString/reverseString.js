@@ -7,6 +7,7 @@ const reverseString = function(string) {
         reverseString += myString[i]; // Concatenate reverse string in 'myNewString'
     }
     return reverseString;
+    /* return string.split('').reverse().join(''); //short answer */
 };
 console.log(reverseString("Hello, World!"));
 // Do not edit below this line
