@@ -1,8 +1,12 @@
 const removeFromArray = function(array, ...remove) {
     let itemIndex;
 
-    itemIndex = array.indexOf(remove[0]);
+    let i;
+    while (i < array.length) {
+    itemIndex = array.indexOf(remove[i]);
     array.splice(itemIndex, 1);
+    i++
+    }
     
     return array;
 };
