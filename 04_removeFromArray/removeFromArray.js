@@ -1,11 +1,11 @@
 const removeFromArray = function(array, ...remove) {
     let itemIndex;
 
-    let i;
+    let i=0;
     while (i < array.length) {
     itemIndex = array.indexOf(remove[i]);
     array.splice(itemIndex, 1);
-    i++
+    i++;
     }
     
     return array;
