@@ -3,13 +3,13 @@ const removeFromArray = function(array, ...remove) {
     let itemIndex;
     let i=0; */
 
-    let result;
+    let result=[];
     /* while (i < array.length) {
     itemIndex = array.indexOf(remove[i]);
     array.splice(itemIndex, 1);
     i++;
     } */
-    
+
     /* 
     result = array.map ((filtered) => !remove.includes(filtered)); */
     
