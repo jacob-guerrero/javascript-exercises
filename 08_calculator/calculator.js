@@ -11,6 +11,7 @@ const sum = function(array) {
 	/* for (let i=0; i < array.length ; i++) {
     sum += array[i];
   } */
+  /* return array.reduce((total, arr) => total + arr, 0); */
   array.forEach(elem => {
     sum += elem;
   });
@@ -39,7 +40,6 @@ const factorial = function(n) {
   }
 	return res
 };
-console.log(factorial(5))
 
 // Do not edit below this line
 module.exports = {
